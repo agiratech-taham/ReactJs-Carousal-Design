@@ -4,17 +4,12 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-import image3 from "./../assets/images/5.jpg";
+import image3 from "./../assets/images/4.jpg";
 export default function ActionAreaCard() {
   return (
     <Card sx={{ maxWidth: 245 }}>
       <CardActionArea>
-        <CardMedia
-          component="img"
-          height="100"
-          image={image3}
-          alt="doctors"
-        />
+        <CardMedia component="img" height="100" image={image3} alt="doctors" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             Lab A
