@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <ResponsiveAppBar />
       <CarouselContainer />
+      <div><pre> </pre></div>
       <ResponsiveGrid />
+      <div><pre> </pre></div>
       <Footer />
     </div>
   );

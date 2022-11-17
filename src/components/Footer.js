@@ -7,10 +7,11 @@ import {
   CDBIcon,
   CDBContainer,
 } from "cdbreact";
+import FacebookIcon from "@mui/icons-material/Facebook";
 
 export const Footer = () => {
   return (
-    <CDBFooter className="shadow" style={{ background: "#204a8c" }}>
+    <CDBFooter className="shadow" style={{ background: "#043752" }}>
       <CDBBox
         display="flex"
         justifyContent="between"
@@ -37,15 +38,19 @@ export const Footer = () => {
           </small>
         </CDBBox>
         <CDBBox display="flex">
-          <CDBBtn flat color="light" className="p-2">
-            <CDBIcon fab icon="facebook-f" style={{ color: "#204a8c" }} />
-          </CDBBtn>
-          <CDBBtn flat color="Light" className="mx-3 p-2">
-            <CDBIcon fab icon="twitter" style={{ color: "#204a8c" }} />
-          </CDBBtn>
-          <CDBBtn flat color="Light" className="p-2">
-            <CDBIcon fab icon="instagram" style={{ color: "#204a8c" }} />
-          </CDBBtn>
+          {/* <CDBBtn flat color="light" className="p-2"> */}
+            <CDBIcon fab icon="facebook-f" style={{ color: "white", marginBottom:"0.5px" }} />
+          {/* </CDBBtn> */}
+          {/* <FacebookIcon /> */}
+          {/* <CDBBtn flat color="Light" className="mx-3 p-2"> */}
+          <CDBIcon fab icon="twitter" style={{ color: "white" }} />
+          {/* </CDBBtn> */}
+          {/* <CDBBtn flat color="Light" className="p-2"> */}
+            <CDBIcon fab icon="instagram" style={{ color: "white" }} />
+          {/* </CDBBtn> */}
+          {/* <CDBBtn flat color="Light" className="p-2"> */}
+          <CDBIcon fab icon="youtube" style={{ color: "white" }} />
+          {/* </CDBBtn> */}
         </CDBBox>
       </CDBBox>
     </CDBFooter>
